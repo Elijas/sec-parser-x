@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "sec-parser-x"
+version = "0.1.0"
+description = "Parse SEC EDGAR HTML documents into a tree of elements that correspond to the visual (semantic) structure of the document"
+authors = ["Elijas <4084885+Elijas@users.noreply.github.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
